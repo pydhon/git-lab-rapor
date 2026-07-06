@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Lab Rapor Paneli</title>
+  <!-- Stil dosyasını bağlıyoruz -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ana sayfa kapsayıcısı -->
+  <div class="container">
+
+    <!-- Sayfa başlığı ve açıklama -->
+    <header>
+      <h1>Git Lab Rapor Paneli</h1>
+      <p class="aciklama">Bu proje Git eğitimi için oluşturulmuştur.</p>
+    </header>
+
+    <!-- Rapor kartları bölümü -->
+    <section class="kartlar">
+
+      <!-- Kart 1: Günlük Üretim Raporu -->
+      <div class="kart">
+        <h2>Günlük Üretim Raporu</h2>
+        <span class="sayi">1.248</span>
+        <p>Bugün üretilen toplam ürün adedi</p>
+      </div>
+
+      <!-- Kart 2: Stok Durumu -->
+      <div class="kart">
+        <h2>Stok Durumu</h2>
+        <span class="sayi">3.570</span>
+        <p>Depodaki mevcut stok miktarı</p>
+      </div>
+
+      <!-- Kart 3: Sevkiyat Özeti -->
+      <div class="kart">
+        <h2>Sevkiyat Özeti</h2>
+        <span class="sayi">86</span>
+        <p>Bugün gerçekleşen sevkiyat sayısı</p>
+      </div>
+
+    </section>
+
+    <!-- Yenile butonu ve bilgi mesajı -->
+    <div class="buton-alani">
+      <!-- Butona tıklandığında app.js içindeki raporlariYenile() fonksiyonu çalışır -->
+      <button onclick="raporlariYenile()">Raporları Yenile</button>
+      <!-- JavaScript bu alanı güncelleyecek -->
+      <p id="bilgi-mesaji" class="bilgi-mesaji">Raporlar son olarak bugün yüklendi.</p>
+    </div>
+
+  </div>
+
+  <!-- JavaScript dosyasını bağlıyoruz -->
+  <script src="app.js"></script>
+</body>
+</html>

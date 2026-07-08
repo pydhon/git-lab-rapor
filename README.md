@@ -65,4 +65,4 @@ Bu proje Developer Foundation Academy Git laboratuvarıdır.
 
 Bu adımlar, gerçek projelerde karşılaşılan conflict durumlarını simüle eder.
 
-Sprint 4 main branch değişikliği
+Sprint 4 conflict çözüldü: main ve feature değişiklikleri incelendi.

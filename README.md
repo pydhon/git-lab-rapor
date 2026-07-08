@@ -65,4 +65,4 @@ Bu proje Developer Foundation Academy Git laboratuvarıdır.
 
 Bu adımlar, gerçek projelerde karşılaşılan conflict durumlarını simüle eder.
 
-Sprint 3 fetch testi
+Sprint 4 main branch değişikliği
